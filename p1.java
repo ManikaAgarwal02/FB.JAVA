@@ -1,8 +1,11 @@
+import java.util.Scanner;
 public class p1 {
     public static void main(String[] args) {
-        System.out.println("Manika Agarwal");
-        System.out.println("FB");
-        System.out.println("35");
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter any number");
+        int c=sc.nextInt();
+        System.out.println(c);
     }
+
     
 }
